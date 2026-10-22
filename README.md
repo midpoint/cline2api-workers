@@ -167,7 +167,7 @@ curl https://cline2api.<你的子域>.workers.dev/v1/chat/completions \
 
 ## 三、部署到 Vercel（可选 ✅ 推荐备一条）
 
-同一份代码可以**同时**部署到 Cloudflare Workers 和 Vercel，互为备份：
+同一份代码可以**同时**部署到 **Cloudflare Workers** 和 **Vercel**，互为备份：
 
 - `worker.js` → Cloudflare Workers 入口
 - `api/index.js` → Vercel Edge Function 入口（逻辑与 `worker.js` 完全一致，仅入口/区域声明不同）
